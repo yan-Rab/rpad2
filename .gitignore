@@ -1,0 +1,48 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# Configs locais
+*.env
+*.env.*
+
+# Arquivos de build
+/build/
+/dist/
+/*.egg-info/
+
+# Cache do pip
+pip-wheel-metadata/
+pip-tools-cache/
+
+# Cache do mypy / pytest
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# SQLite (se usar)
+*.sqlite3
+
+# -------------------------
+# FastAPI / Uvicorn
+# -
